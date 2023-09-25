@@ -1,0 +1,190 @@
+
+/*Ewan Gunn*/
+
+.bg-intro {
+	font-family: "NotoSerif";
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.text-intro {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.bg-intro h1 {
+	font-family: "Helvetica";
+    color: #C89628;
+    font-size: 110px;
+    font-weight: 500;
+}
+
+.text-intro2 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.img-banner {
+  	width: 100%;
+  	height: auto;
+}
+
+/*---------------------*/
+
+.text1 {
+	font-family: "Epilogue-Bold";
+	font-size: 20px;
+	line-height: 24px;
+	color: #C89628;
+	padding-right: 280px;
+}
+
+.text2 {
+	font-family: "NotoSerif";
+	font-size: 18px;
+    line-height: 30px;
+    color: white;
+    padding: 0 90px;
+    margin-top: 30px;
+}
+
+.text3 {
+	color: #C89628;
+    font-family: "Epilogue";
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-top: 50px;
+}
+
+.text4 {
+	color: white;
+}
+
+.list-img {
+	display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.img-banner2 {
+	padding: 0 90px;
+}
+
+.text-caption {
+	font-family: "Epilogue-Bold";
+	text-align: center;
+	line-height: 18px;
+	font-size: 14px;
+	color: white;
+}
+
+.back-top {
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	z-index: 10;
+	color: #C89628;
+	font-size: 25px;
+}
+
+@media(max-width: 1400px) {
+	.text1 {
+		padding-right: 170px;
+	}
+
+	.text2,
+	.img-banner2 {
+		padding-left: 80px;
+		padding-right: 0;
+	}
+
+	.text3 {
+		font-size: 40px;
+		padding-left: 80px;
+	}
+}
+
+@media(max-width: 1024px) {
+	.text1 {
+		padding-right: 40px;
+	}
+
+	.text2,
+	.img-banner2 {
+		padding-left: 60px;
+	}
+
+	.text3 {
+		font-size: 25px;
+		padding-left: 80px;
+	}
+}
+
+@media(max-width: 991px) {
+	.text-intro2 {
+		font-size: 30px;
+	}
+
+	.bg-intro h1 {
+		font-size: 90px;
+	}
+
+	.text3 {
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 740px) {
+	.bg-intro h1 {
+		font-size: 80px;
+	}
+
+	.text-intro2 {
+		font-size: 25px;
+	}
+}
+
+@media(max-width: 450px) {
+	.back-top {
+		display: none;
+	}
+
+	.bg-intro {
+		padding: 50px 0;
+	}
+
+	.text-intro {
+		font-size: 15px;
+	}
+
+	.bg-intro h1 {
+		font-size: 55px;
+	}
+
+	.text-intro2 {
+		font-size: 18px;
+	}
+
+	.list-img {
+		grid-template-columns: 100%;
+		row-gap: 30px;
+	}
+
+	.text1,
+	.text2,
+	.img-banner2,
+	.text3 {
+		padding: 0;
+	}
+
+	.text3 {
+		font-size: 25px;
+	}
+}

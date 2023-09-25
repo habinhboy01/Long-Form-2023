@@ -1,0 +1,186 @@
+
+@font-face {
+  font-family: "Ariata Display";
+  src: url("../fonts/Ariata Display Regular.otf");
+}
+
+@font-face {
+  font-family: "DonJulio";
+  src: url("../fonts/DonJulio-Regular.otf");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("../fonts/NotoSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+body {
+  background-color: #312425;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------*/
+
+.color-text {
+  color: #CE6A31;
+}
+
+.color-text-2 {
+  color: #EDDDBE;
+}
+
+.container-img {
+  max-width: 1580px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-img2 {
+  max-width: 1180px;
+  margin-right: auto;
+    margin-left: auto;
+}
+
+.container-text {
+  max-width: 960px;
+  margin-right: auto;
+    margin-left: auto;
+}
+
+.mr-top {
+  margin-top: 50px;
+}
+
+.mr-top-2 {
+  margin-top: 90px;
+}
+
+.mr-bottom {
+  margin-bottom: 50px;
+}
+
+.img-banner {
+  width: 100%;
+  height: auto;
+}
+
+@media(max-width: 1700px) {
+  .container-img {
+    max-width: 1480px;
+  }
+}
+
+@media(max-width: 1600px) {
+  .container-img {
+    max-width: 1380px;
+  }
+}
+
+@media(max-width: 1400px) {
+  .container-img {
+    max-width: 1200px;
+  }
+
+  .container-img2 {
+    max-width: 960px;
+  }
+
+  .container-text {
+    max-width: 780px;
+  }
+}
+
+@media(max-width: 1300px) {
+  .container-img {
+    max-width: 1100px;
+  }
+}
+
+@media(max-width: 991px) {
+  .container-img {
+    max-width: 670px;
+  }
+
+  .container-img2 {
+    max-width: 700px;
+  }
+
+  .container-text {
+    max-width: 650px;
+  }
+}
+
+@media(max-width: 450px) {
+  .container-img,
+  .container-img2,
+  .container-text {
+    max-width: 370px;
+  }
+
+  .mr-top {
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 393px) {
+  .container-img,
+  .container-img2,
+  .container-text {
+    max-width: 340px;
+  }
+}
+
+@media(max-width: 360px) {
+  .container-img,
+  .container-img2,
+  .container-text {
+    max-width: 315px;
+  }
+}
+
+
+

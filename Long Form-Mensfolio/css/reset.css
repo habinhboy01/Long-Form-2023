@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../fonts/Times New Roman/times new roman.ttf");
+}
+
+@font-face {
+  font-family: "Times New Roman-bold";
+  src: url("../fonts/Times New Roman/times new roman bold.ttf");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../fonts/Georgia Font/Georgia.ttf");
+}
+
+body {
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+  font-family: "Georgia";
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+  font-family: "Georgia";
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+
+p {
+  font-family: "Georgia";
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Georgia";
+}

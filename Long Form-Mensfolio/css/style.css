@@ -1,0 +1,180 @@
+.img-intro {
+	width: 100%;
+	height: auto;
+}
+
+.text1 {
+	color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Hai thế kỷ The Macallan*/
+
+.content-macallan {
+	margin-top: 50px;
+}
+
+.title {
+	display: flex;
+    align-items: flex-end;
+}
+
+.title h1 {
+    color: #690903;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title img {
+	margin-right: 10px;
+}
+
+.content-macallan2 {
+	position: relative;
+	margin-top: 20px;
+}
+
+.img-icon,
+.img-icon2 {
+	position: absolute;
+}
+
+.img-icon {
+	left: 0;
+	top: 0;
+}
+
+.img-icon2 {
+	right: 0;
+	bottom: 0;
+}
+
+.img-intro2 {
+	width: 100%;
+	height: auto;
+}
+
+.text2 {
+    color: #730000;
+    font-size: 25px;
+    margin-top: 20px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    padding: 0 45px;
+}
+
+/*Sáu thập kỷ James Bond*/
+
+.text3 {
+	color: black;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+/*Bản lĩnh dẫn đầu*/
+
+.img-intro3 {
+	margin-top: 30px;	
+}
+
+@media(max-width: 1400px) {
+	.text1 {
+		font-size: 29px;
+	}
+
+	.img-intro2 {
+		height: 250px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.text1 {
+		font-size: 26px;
+	}
+
+	.content-macallan2 {
+		margin-top: 40px;
+	}
+
+	.img-icon {
+		top: -10px;
+	}
+
+	.img-intro2 {
+		height: 220px;
+	}
+
+	.text2 {
+		top: 20px;
+	}
+}
+
+@media(max-width: 991px) {
+	.img-intro2 {
+		height: 310px;
+	}
+}
+
+@media(max-width: 740px) {
+	.title img {
+		height: 70px;
+	}
+
+	.img-icon,
+	.img-icon2 {
+		width: 40px;
+	}
+
+	.img-intro2 {
+		height: 440px;
+	}
+
+	.img-icon {
+		top: 4px;
+	}
+
+	.img-icon2 {
+		bottom: 4px;
+	}
+
+	.text2 {
+		top: 30px;
+	}
+}
+
+@media(max-width: 450px) {
+	.text1 {
+		font-size: 22px;
+	}
+
+	.title img {
+		height: 90px;
+	}
+
+	.img-intro2 {
+		height: 560px;
+	}
+
+	.text2 {
+		top: 40px;
+	}
+}
+
+@media(max-width: 393px) {
+	.img-intro2 {
+		height: 600px;
+	}
+}
+
+@media(max-width: 360px) {
+	.img-intro2 {
+		height: 700px;
+	}
+}
